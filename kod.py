@@ -18,12 +18,12 @@ while nauda > 0:
   
 
   if krasa == 1:
-    if skaitlis in sarkanie == 0:
+    if skaitlis in sarkanie:
       nauda = nauda + likme * 2
     else:
       print("ne sarkans plak plak")
   elif krasa == 2:
-    if skaitlis in melnie == 0:
+    if skaitlis in melnie:
       nauda = nauda + likme * 2
     else:
       print("ne melns plak plak")
