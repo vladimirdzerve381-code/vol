@@ -35,4 +35,5 @@ while nauda > 0:
       print("nu un ko tu grib ja uz zero")
 
   print("Atlikums:", nauda)
+  print("Vesture:", vesture)
 print("tu viss patere")
