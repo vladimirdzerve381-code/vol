@@ -5,7 +5,6 @@ melnie = [2, 4, 6, 8, 10, 11, 13, 15, 16, 17, 20, 22, 23, 24, 28, 29, 31, 33, 35
 vesture = []
 nauda = 72
 print("-----------Godiga rulete-------------")
-print("Ja skaitlis uz rulete ir sarkans tad tava likme x2")
 
 while nauda > 0:
   likme = float(input("Cik gamble?: "))
