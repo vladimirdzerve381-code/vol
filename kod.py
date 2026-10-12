@@ -8,7 +8,7 @@ print("-----------Godiga rulete-------------")
 
 while nauda > 0:
   likme = float(input("Cik gamble?: "))
-  krasa = int(input("sarkans - 1, melns -2, zero -0"))
+  krasa = int(input("sarkans - 1, melns -2, zero -0: "))
   nauda = nauda - likme
 
   skaitlis = random.randint(0, 36)
