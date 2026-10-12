@@ -27,7 +27,6 @@ while nauda > 0:
     else:
       print("ne melns plak plak")
   else:
-    print("bro tu kreizi")
     if skaitlis == 0:
       nauda = nauda + likme * 10
     else:
