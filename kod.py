@@ -15,7 +15,6 @@ while nauda > 0:
   vesture.append(skaitlis)
   print("Izkrita:", skaitlis)
   
-
   if krasa == 1:
     if skaitlis in sarkanie:
       nauda = nauda + likme * 2
