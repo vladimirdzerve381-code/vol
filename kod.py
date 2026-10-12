@@ -3,7 +3,7 @@ import random
 sarkanie = [1, 3, 5, 7, 9, 12, 14, 18, 19, 21, 25, 27, 30, 32, 34, 36]
 melnie = [2, 4, 6, 8, 10, 11, 13, 15, 16, 17, 20, 22, 23, 24, 28, 29, 31, 33, 35]
 vesture = []
-nauda = 72
+nauda = 100
 print("-----------Godiga rulete-------------")
 
 while nauda > 0:
