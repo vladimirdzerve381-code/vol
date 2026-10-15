@@ -6,6 +6,15 @@ vesture = []
 nauda = 100
 print("-----------Godiga rulete-------------")
 
+def izmaksa(likme, reizinatajs=2):
+  return likme * reizinatajs
+
+def ir_sarkans(skaitlis):
+  return skaitlis in sarkanie
+
+def ir_melns(skaitlis):
+  return skaitlis in melnie
+  
 while nauda > 0:
   likme = float(input("Cik gamble?: "))
   krasa = int(input("sarkans - 1, melns -2, zero -0: "))
@@ -16,13 +25,13 @@ while nauda > 0:
   print("Izkrita:", skaitlis)
   
   if krasa == 1:
-    if skaitlis in sarkanie:
-      nauda = nauda + likme * 2
+    if ir_sarkans(skaitlis):
+      nauda = nauda + izmaksa(likme)
     else:
       print("ne sarkans plak plak")
   elif krasa == 2:
-    if skaitlis in melnie:
-      nauda = nauda + likme * 2
+    if ir_melns(skaitlis):
+      nauda = nauda izmaksa(likme)
     else:
       print("ne melns plak plak")
   else:
