@@ -31,7 +31,7 @@ while nauda > 0:
       print("ne sarkans plak plak")
   elif krasa == 2:
     if ir_melns(skaitlis):
-      nauda = nauda izmaksa(likme)
+      nauda = nauda + izmaksa(likme)
     else:
       print("ne melns plak plak")
   else:
